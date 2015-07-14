@@ -13,6 +13,7 @@
 		BBA227E81B554B8700939E71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA227E71B554B8700939E71 /* Images.xcassets */; };
 		BBA227EB1B554B8700939E71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA227E91B554B8700939E71 /* LaunchScreen.xib */; };
 		BBA227F71B554B8700939E71 /* LiskovPhraserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA227F61B554B8700939E71 /* LiskovPhraserTests.swift */; };
+		BBA228011B554CB100939E71 /* LiskovPhraseMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA228001B554CB100939E71 /* LiskovPhraseMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BBA227F01B554B8700939E71 /* LiskovPhraserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiskovPhraserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA227F51B554B8700939E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBA227F61B554B8700939E71 /* LiskovPhraserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovPhraserTests.swift; sourceTree = "<group>"; };
+		BBA228001B554CB100939E71 /* LiskovPhraseMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiskovPhraseMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		BBA227DD1B554B8700939E71 /* LiskovPhraser */ = {
 			isa = PBXGroup;
 			children = (
+				BBA228001B554CB100939E71 /* LiskovPhraseMaker.swift */,
 				BBA227E01B554B8700939E71 /* AppDelegate.swift */,
 				BBA227E21B554B8700939E71 /* ViewController.swift */,
 				BBA227E41B554B8700939E71 /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA228011B554CB100939E71 /* LiskovPhraseMaker.swift in Sources */,
 				BBA227E31B554B8700939E71 /* ViewController.swift in Sources */,
 				BBA227E11B554B8700939E71 /* AppDelegate.swift in Sources */,
 			);
