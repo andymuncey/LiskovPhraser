@@ -20,13 +20,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var phraseLabel: UILabel!
     
-    @IBAction func viewPhrasePressed(sender: AnyObject) {
-    
-        phraseMaker.setTypeName(typeTextField.text, subtypeName: subtypeTextField.text)
+    @IBAction func viewPhrasePressed(_ sender: Any) {
+        phraseMaker.set(type:typeTextField.text!, subtype: subtypeTextField.text!)
         
         phraseLabel.text = phraseMaker.modifiedLiskovPhrase()
-        
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
